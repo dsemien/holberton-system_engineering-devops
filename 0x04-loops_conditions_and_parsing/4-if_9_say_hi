@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 #but for the 9th iteration, displays Hi
-n=1
-while [ $n -ne 11 ]; do
+n=0
+while [ $n -lt 11 ]; do
     if [ $n -eq 9 ]; then
         echo "Hi"
     else
